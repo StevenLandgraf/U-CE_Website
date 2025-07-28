@@ -2,30 +2,23 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
 
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <!-- Meta tags for search engines and social media -->
+  <meta name="description" content="U-CE is a novel Uncertainty-aware Cross-Entropy loss function for semantic segmentation that dynamically incorporates predictive uncertainty into training via pixel-wise loss weighting.">
+  <meta name="keywords" content="semantic segmentation, uncertainty estimation, cross-entropy loss, Monte Carlo Dropout, calibration, uncertainty-aware training, Cityscapes, ACDC, U-CE, robustness, reliability, safety-critical AI">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+  <meta property="og:title" content="U-CE: Uncertainty-aware Cross-Entropy for Semantic Segmentation" />
+  <meta property="og:description" content="We propose U-CE, an uncertainty-aware loss for semantic segmentation that improves both segmentation performance and uncertainty estimation by integrating Monte Carlo Dropout-based uncertainties into the cross-entropy loss." />
+  <meta property="og:url" content="https://stevenlandgraf.github.io/U-CE_Website/" />
+  <meta property="og:image" content="static/images/icon.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta property="og:type" content="website" />
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>U-CE: Uncertainty-aware Cross-Entropy for Semantic Segmentation</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -52,28 +45,30 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">U-CE: Uncertainty-aware Cross-Entropy for Semantic Segmentation</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=7DOqcXkAAAAJ&hl=en" target="_blank">Steven Landgraf</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://scholar.google.com/citations?user=_qfDWfUAAAAJ&hl=en" target="_blank">Markus Hillemann</a>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=P8p0BNcAAAAJ&hl=de" target="_blank">Kira Wursthorn</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://scholar.google.com/citations?user=JutLoKsAAAAJ&hl=en" target="_blank">Markus Ulrich</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Machine Vision Metrology (MVM)<br>Institute of Photogrammetry and Remote Sensing (IPF)<br>Karlsruhe Institute of Technology (KIT)<br> PFG Journal of Photogrammetry, Remote Sensing and Geoinformation Science [2024]</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
+                         <!-- PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://isprs-annals.copernicus.org/articles/X-2-2024/129/2024/" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -81,21 +76,21 @@
                         <span>Paper</span>
                       </a>
                     </span>
+                  
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2307.09947" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/StevenLandgraf/U-CE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -103,15 +98,6 @@
                     <span>Code</span>
                   </a>
                 </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
                 </a>
               </span>
             </div>
@@ -122,24 +108,6 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -148,7 +116,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          Deep neural networks have shown exceptional performance in various tasks, but their lack of robustness, reliability, and tendency to
+          be overconfident pose challenges for their deployment in safety-critical applications like autonomous driving. In this regard, quantifying the uncertainty inherent to a model's prediction is a promising endeavour to address these shortcomings. In this work, we
+          present a novel Uncertainty-aware Cross-Entropy loss (U-CE) that incorporates dynamic predictive uncertainties into the training
+          process by pixel-wise weighting of the well-known cross-entropy loss (CE). Through extensive experimentation, we demonstrate
+          the superiority of U-CE over regular CE training on two benchmark datasets, Cityscapes and ACDC, using two common backbone
+          architectures, ResNet-18 and ResNet-101. With U-CE, we manage to train models that not only improve their segmentation performance but also provide meaningful uncertainties after training. Consequently, we contribute to the development of more robust
+          and reliable segmentation models, ultimately advancing the state-of-the-art in safety-critical applications and beyond.
           </p>
         </div>
       </div>
@@ -158,132 +132,111 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+<!-- Methodology Section -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Methodology</h2>
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered">
+        <img src="static/images/methodology.png" alt="U-CE Method Overview" style="max-width: 100%; height: auto;" />
+        <div class="content has-text-justified">
+          <p>
+            A schematic overview of the training process of U-CE. U-CE integrates the predictive uncertainties of a Monte Carlo Dropout
+            (MC-Dropout) model into the training process to enhance segmentation performance. In comparison to most applications of Monte Carlo
+            Dropout, U-CE utilizes the uncertainties not only at test time but also dynamically during training by applying pixel-wise weighting to the
+            regular cross-entropy loss.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+<!-- Quantitative Results Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered">
+        <img src="static/images/quantitative_results.png" style="max-width: 100%; height: auto;" />
+        <div class="content has-text-justified">
+          <p>
+            A detailed quantitative comparison between regular
+            CE and U-CE on the Cityscapes dataset using a dropout ratio
+            of 20%. The provided numbers represent the mIoU ↑, ECE ↓, and mUnc.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+<!-- Qualitative Results Section -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Qualitative Results</h2>
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered">
+        <img src="static/images/qualitative_results.png" alt="Qualitative Examples" style="max-width: 100%; height: auto;" />
+        <div class="content has-text-justified">
+          <p>
+          Example images from the Cityscapes and ACDC validation set (a), corresponding ground truth labels (b), the model's segmentation predictions (c), a binary accuracy map (d), and the predictive uncertainty (e). White pixels in the binary accuracy map are either
+          incorrect predictions or void classes, which appear black in the ground truth label. For the uncertainty prediction, brighter pixels represent
+          higher predictive uncertainties. The first three rows depict results from models with a ResNet-18 backbone and dropout ratio of 20%,
+          trained for 200 epochs on Cityscapes. The last three rows show examples from models using a ResNet-101 backbone and a dropout
+          ratio of 20%, trained for 500 epochs on the ACDC dataset.
+          </p>
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
+  </div>
+</section>
 
+
+<!-- Paper Conclusion -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Conclusion</h2>
+        <div class="content has-text-justified">
+          <p>
+          In this paper, we introduced U-CE, a novel uncertainty-aware
+          cross-entropy loss for semantic segmentation. U-CE incorporates predictive uncertainties, based on Monte Carlo Dropout,
+          into the training process through pixel-wise weighting of the
+          regular cross-entropy loss. As a result, we manage to train
+          models that are naturally capable of predicting meaningful uncertainties after training while simultaneously improving their
+          segmentation performance. Through extensive experimentation
+          on the Cityscapes and ACDC datasets using ResNet-18 and
+          ResNet-101 architectures, we demonstrated the superiority of
+          U-CE over regular cross-entropy training.
+          We hope that U-CE and our thorough discussion of potential
+          limitations and future work contribute to the development of
+          more robust and trustworthy segmentation models, ultimately
+          advancing the state-of-the-art in safety-critical applications and
+          beyond.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper conclusion -->
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{landgraf2023u,
+  title={U-CE: Uncertainty-aware cross-entropy for semantic segmentation},
+  author={Landgraf, Steven and Hillemann, Markus and Wursthorn, Kira and Ulrich, Markus},
+  journal={arXiv preprint arXiv:2307.09947},
+  year={2023}
+}
+</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
-
-
   <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
@@ -301,12 +254,6 @@
     </div>
   </div>
 </footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
 
   </body>
   </html>
